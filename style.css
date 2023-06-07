@@ -1,0 +1,293 @@
+*{
+    margin: 0%;
+}
+ #toolbar {
+    background-color: #f2f2f2;
+    height: 56px;
+    width: 100%;
+}
+
+#toolbar img{
+    height: 56px;
+    margin-left: 0%;
+    width: 180px;
+    float: left;
+}
+#toolbar input {
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 5px;
+}
+#toolbar button{
+    background-color: rgb(131, 27, 8);
+    color: #ddd;
+    border-radius: 20px;
+    width: 60px;
+    border-color: rgb(131, 27, 8);
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#button{
+    background-color: rgb(131, 27, 8);
+    color: #ddd;
+    border-radius: 20px;
+    width: 100px;
+    border-color: rgb(131, 27, 8);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#toolbar ul {
+    float: right;
+    margin-top: 20px;
+}
+
+#toolbar ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#toolbar ul li a {
+    color: #929491;
+    text-decoration: none;
+}
+
+#header {
+    width: 50%;
+    height: 500px;
+    background-color: rgb(131, 27, 8);
+    color: #f1f0f0;
+    text-align: center;
+    float: left;
+}
+
+#header h1 {
+    font-size: 50px;
+    padding: 5%;
+}
+
+#header p {
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.LearnMore {
+    background-color: rgb(131, 27, 8);
+    color: #ddd;
+    border-radius: 30px;
+    width: 150px;
+    border-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#header h3 {
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+#header1 {
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: rgb(131, 27, 8);
+    margin: 0%;
+    text-align: center;
+}
+
+#header1 img {
+    height: 400px;
+    padding: 75px;
+}
+
+.grid-container {
+    display: grid;
+    width: 85%;
+    height: 400px;
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    padding: 40px 100px 40px 100px;
+    gap: 20px;
+}
+
+.box {
+    background-color: rgba(228, 226, 226, 0.719);
+    color: rgb(12, 10, 10);
+    border-radius: 5px;
+    border: 2px rgb(243, 247, 250) solid;
+    width: 100%;
+    height: 210px;
+}
+
+.photo{
+    float: left;
+   margin-top: 10px;
+}
+.box img{
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.box h3{
+    margin-top: 30px;
+   margin-bottom: 5px;
+    margin-left: 20px;
+    text-align: left;
+    color:rgb(131, 27, 8) ;
+}
+
+.box p{
+    margin-left: 10px;
+    text-align: left;
+    margin-right: 40px;
+}
+.textbox {
+    float: left;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.textbox p {
+    text-align: center;
+    color: #929491;
+    padding-top: 50px;
+}
+
+.textbox h1 {
+    text-align: center;
+    color: rgb(131, 27, 8);
+    font-family: 'Segoe UI Semibold';
+}
+
+.photoboxes{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.photobox {
+    background-color: rgba(228, 226, 226, 0.719);
+    height: 610px;
+    width: 31.3%;
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.photobox img {
+    height: 38%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.photobox p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.photobox h2{
+    color: rgb(131, 27, 8);
+}
+.photobox table {
+    border-collapse: collapse;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-left: 40px;
+    width: 100%;
+    
+}
+
+.photobox table th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.Join {
+    padding: 7px;
+    background-color: rgb(131, 27, 8);
+    color: #ddd;
+    border-radius: 30px;
+    width: 100px;
+    border-color: rgb(131, 27, 8);
+}
+.teacherss{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.teachers {
+    margin: 5px;
+    margin-top: 10px;
+    float: left;
+    width: 24%;
+    height: 500px;
+    background-color: white;
+}
+
+.teachers img {
+    width: 100%;
+    height: 68%;
+}
+.teachers h3 {
+    text-align: center;
+    color: rgb(131, 27, 8);
+    font-family: 'Segoe UI Semibold';
+}
+
+.teachers p {
+    text-align: center;
+    color: #929491;
+}
+
+.footer {
+    background-color: rgb(131, 27, 8);
+    height: 400px;
+    width: 96%;
+    float: left;
+    padding: 2%;
+}
+
+.inner {
+    margin: 2%;
+    float: left;
+    width: 21%;
+    color: #ddd;
+    padding-top: 20px;
+    height: 330px;
+}
+
+.inner ul li a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.inner ul {
+    line-height: 2;
+}
+
+.inner input {
+    padding: 10px;
+    width: 250px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: rgb(131, 27, 8);
+    color: #ddd;
+    border-radius: 30px;
+    width: 100px;
+    border-color: rgb(131, 27, 8);
+}
+
+#last{
+    color: #ddd;
+    text-align: center;
+    
+}
